@@ -4,6 +4,7 @@ project(gnss_comm)
 set(CMAKE_BUILD_TYPE "release")
 set(CMAKE_CXX_FLAGS "-std=c++11 ")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -fPIC")
+set(cv_bridge_DIR /usr/local/share/cv_bridge/cmake)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
